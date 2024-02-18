@@ -11,9 +11,9 @@ if b>a : # a b
 else : # b a
     if a<c : # b a c
         print(a)
-    elif b>c : # b c a
+    elif b<c : # b c a
         print(c)
-    else :
+    else : # b a
         print(b)
 
 
