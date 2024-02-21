@@ -6,5 +6,5 @@ if c == "A" :
         print(i, end=" ")
 
 else :
-    for ii in range(n+1, 1, -1) :
+    for ii in range(n, 0, -1) :
         print(ii, end=" ")
