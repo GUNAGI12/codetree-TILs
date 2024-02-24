@@ -1,9 +1,9 @@
 inp = input().split()
 a, b, c = int(inp[0]), int(inp[1]), int(inp[2])
-satisfied = False
+satisfied = True
 for i in range(a, b+1) :
-    if c%i != 0 :
-        satisfied = True
+    if i%c == 0 :
+        satisfied = False
 
 if satisfied == True :
     print("YES")
