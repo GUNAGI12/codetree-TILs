@@ -1,7 +1,12 @@
-n = int(input())
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+
 satisfied = False
 
-if n%3 == 0 :
+if a%3 == 0 and b%3 == 0 and c%3 == 0 and d%3 == 0 and e%3 == 0:
     satisfied = True
 
 if satisfied == True :
