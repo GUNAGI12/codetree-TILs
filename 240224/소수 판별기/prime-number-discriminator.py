@@ -1,9 +1,9 @@
 n = int(input())
-satisfied = False
+satisfied = True
 
 for i in range (2,n) :
-    if n%i != 0 :
-        satisfied = True
+    if n%i == 0 :
+        satisfied = False
 
 if satisfied == True :
     print("P")
